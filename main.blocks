@@ -1,0 +1,7 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="device_forever" id="rxpUS`2gC!QCW?^!Wh=X" x="0" y="0"><statement name="HANDLER"><block type="controls_if" id="#[oae6)`kB?s}%;;tb*K"><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="edubit_is_ir_sensor_triggered" id="#QN-tmf.%15drQ.EOR(."></block></value><statement name="DO0"><block type="device_show_leds" id="|fdulG-*~!l|^})z;W2["><field name="LEDS">`
+        . . . . . 
+        . # . # . 
+        . . . . . 
+        # . . . # 
+        . # # # .
+        `</field><next><block type="edubit_set_pixel_color" id="jQ?bG)5H+{R`0.L|]/5,"><value name="pixel"><shadow type="math_number_minmax" id="But0w)u@HiG_#thO_hu{"><mutation min="0" max="3" label="Pixel" precision="0"></mutation><field name="SLIDER">3</field></shadow></value><value name="color"><shadow type="colorNumberPicker" id="l5oi0adtIP39NbY-PK6K"><field name="value">0xffff00</field></shadow></value><next><block type="controls_repeat_ext" id="x:0QqpDHPMd{;UL)AWwD"><value name="TIMES"><shadow type="math_whole_number" id="p_|`9.E3|}uW?BuAN::X"><field name="NUM">50</field></shadow></value><statement name="DO"><block type="edubit_rotate_pixels" id="(Fo|PSl|;r/m@J[^1vZj"><value name="offset"><shadow type="math_number_minmax" id="14EQ4x|#(F6tgi,1~g(8"><mutation min="-3" max="3" label="Offset" precision="0"></mutation><field name="SLIDER">1</field></shadow></value></block></statement></block></next></block></next></block></statement></block></statement></block></xml>
